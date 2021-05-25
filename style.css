@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(70, 69, 69);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.date h1 {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.date h3 {
+  margin-left: 5px;
+  color: rgba(255, 255, 255, 0.527);
+}
+
+#snake {
+  border-radius: 3px;
+}
